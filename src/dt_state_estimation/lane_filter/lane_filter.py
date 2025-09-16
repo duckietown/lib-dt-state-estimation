@@ -2,7 +2,7 @@ from math import floor, sqrt
 from typing import List, Tuple
 
 import numpy as np
-from scipy.ndimage.filters import gaussian_filter
+from scipy.ndimage import gaussian_filter
 from scipy.stats import entropy, multivariate_normal
 
 from . import ILaneFilter
